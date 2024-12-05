@@ -1,0 +1,22 @@
+#search{
+    display: none !important;
+}
+.body3{
+    flex-direction: column;
+}
+.image2{
+    width: 100vw !important;
+    height: 100vh;
+  }
+  .body4child{
+   justify-content: space-evenly;
+   flex-direction: column;
+
+  }
+  .card1{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #08152b;
+    align-items: center;
+  }

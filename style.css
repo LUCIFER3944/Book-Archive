@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.form-control {
+  width: 30vw;
+}
+.offcanvas {
+  background-color: white;
+}
+
+.body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(Images/Front\ page.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  flex-wrap: wrap;
+
+  width: 100vw;
+  height: 100vh;
+}
+.firsth1 {
+  position: relative;
+  top: -750px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.firstp1 {
+  position: relative;
+  left: 100%; /* Start the element to the right of its resting position */
+}
+
+.navbar {
+  background: transparent !important;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.body2 {
+  background-color: #111b2e;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.body3 {
+  display: flex;
+  justify-content: center;
+
+  background-color: #111b2e;
+}
+.body3first {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  background-color: #ee9652ad;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.image2 {
+  width: 40vw;
+  height: 100vh;
+}
+
+.copyright {
+  color: #8f9191;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.made-with {
+  color: #8f9191;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.footer5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #111b2e;
+}
+.card1{
+  display: flex;
+  background-color: #08152b;
+  justify-content: space-around;
+  align-items: center;
+}
+.block{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background-color: #111b2e;
+color: white;
+}
