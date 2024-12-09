@@ -1,12 +1,4 @@
-<?php
-      session_start();
-    if(!isset($_SESSION['login'])&& $_SESSION['login']!='true' ){
-     header('location:login.php');
-    }
-    
-    
-    
-    ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
