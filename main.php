@@ -91,8 +91,8 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="books.html">Book Archive </a>
-                <a class="nav-link" href="order.html">Order List </a>
+                <a class="nav-link" href="books.php">Book Archive </a>
+                <a class="nav-link" href="order.php">Order List </a>
               
               </li>
               <li class="nav-item dropdown">
