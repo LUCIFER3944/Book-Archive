@@ -108,6 +108,7 @@
                 <ul class="dropdown-menu">
                  
                   <li><a class="dropdown-item" href="Profile.php">Profile</a></li>
+                  <li><a class="dropdown-item" href="Admin.php">Admin</a></li>
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
