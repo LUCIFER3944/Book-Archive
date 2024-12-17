@@ -106,11 +106,7 @@
                   Account
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="Login.php">Log-in</a></li>
-                  <li><a class="dropdown-item" href="Login.php">Sign-up</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
+                  
                   <li><a class="dropdown-item" href="Profile.php">Profile</a></li>
                 </ul>
               </li>
