@@ -1,12 +1,4 @@
-<?php
-      session_start();
-    if(!isset($_SESSION['login'])&& $_SESSION['login']!='true' ){
-     header('location:login.php');
-    }
-    
-    
-    
-    ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -129,7 +121,7 @@
     </nav>
 
     <div class="body1">
-      <h1 class="firsth1">FANTASY ARCHIVE - A WORLD OF IMMERSIVE STORIES</h1>
+      <h1 class="firsth1">BOOk ARCHIVE - A WORLD OF IMMERSIVE STORIES</h1>
       <h5 class="firstp1">
         Fantasy Archive is a Serialized Reading App for Sci-Fi and Fantasy.
         Fantasy Archive specializes <br />in worldbuilding and interactive
