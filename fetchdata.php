@@ -1,6 +1,6 @@
 <?php
-session_start();
 
+include("session.php");
 // Check if the user is logged in
 
     // Initialize variables

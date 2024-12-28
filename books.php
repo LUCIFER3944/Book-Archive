@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-4">
               <div class="card h-100">
-                <img src="Images/3830-crusader-homepage-banner.webp"card-img-top" alt="...">
+                <img src="Images/3830-crusader-homepage-banner.webp"class="card-img-top" alt="...">
                 <a href="order.html" class="btn btn-primary">Order Now</a>
                
               </div>

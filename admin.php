@@ -1,3 +1,9 @@
+<?php
+session_start();
+include("session.php");
+include("fetchdata.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +11,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="styleadmin.css">
-    <title>Responsive Dashboard Design #1 | Lucifercode0</title>
+    <title> Lucifercode0</title>
 </head>
 
+
 <body>
+    
 
     <div class="container">
         <!-- Sidebar Section -->
@@ -17,7 +28,11 @@
             <div class="toggle">
                 <div class="logo">
                     <img src="images/logo.png">
-                    <h2>Lucifer <span class="danger">Code0</span></h2>
+                    <h2><?php
+            echo $fname;
+            ?> <span class="danger"><?php
+            echo $lname;
+            ?></span></h2>
                 </div>
                 <div class="close" id="close-btn">
                     <span class="material-icons-sharp">
@@ -45,19 +60,8 @@
                     </span>
                     <h3>History</h3>
                 </a>
-                <a href="#" class="active">
-                    <span class="material-icons-sharp">
-                        insights
-                    </span>
-                    <h3>Analytics</h3>
-                </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        mail_outline
-                    </span>
-                    <h3>Tickets</h3>
-                    <span class="message-count">27</span>
-                </a>
+             
+             
                 <a href="#">
                     <span class="material-icons-sharp">
                         inventory
@@ -76,13 +80,13 @@
                     </span>
                     <h3>Settings</h3>
                 </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        add
-                    </span>
-                    <h3>New Login</h3>
+                <a href="main.php">
+                <span class="material-icons">home</span>
+
+                    
+                    <h3>Home</h3>
                 </a>
-                <a href="#">
+                <a href="logout.php">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -153,18 +157,26 @@
                 <h2>New Users</h2>
                 <div class="user-list">
                     <div class="user">
-                        <img src="images/profile-2.jpg">
-                        <h2>Jack</h2>
+                        <img src="image2/ava3.webp">
+                        <h2><?php
+            echo $fname;
+            ?></h2>
                         <p>54 Min Ago</p>
                     </div>
                     <div class="user">
-                        <img src="images/profile-3.jpg">
-                        <h2>Amir</h2>
+                        <img src="image2/ava3.webp">
+                        <h2><?php
+            echo $fname;
+            ?></h2>
                         <p>3 Hours Ago</p>
                     </div>
                     <div class="user">
-                        <img src="images/profile-4.jpg">
-                        <h2>Ember</h2>
+                        <img src="image2/ava3.webp">
+                        <h2><?php
+            echo $fname;
+            ?>
+      
+    </h2>
                         <p>6 Hours Ago</p>
                     </div>
                     <div class="user">
@@ -231,7 +243,9 @@
             <div class="user-profile">
                 <div class="logo">
                     <img src="images/logo.png">
-                    <h2>Lucifercode0</h2>
+                    <h2><?php
+            echo $fname.$lname;
+            ?></h2>
                     <p>Fullstack Web Developer</p>
                 </div>
             </div>
