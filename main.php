@@ -1,3 +1,9 @@
+<?php
+
+
+include("session.php");
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -112,7 +118,7 @@
                   <li>
                     <hr class="dropdown-divider" />
                   </li>
-                  <li><a class="dropdown-item" href="Login.php">Log-out</a></li>
+                  <li><a class="dropdown-item" href="Logout.php">Log-out</a></li>
              
                 </ul>
                 

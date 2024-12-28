@@ -1,6 +1,4 @@
-<?php 
-include("sessionstart.php");
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +19,7 @@ include("sessionstart.php");
         <nav >
             <a  href="main.php" class="active"> Home</a>
             <a href="profile.php" >Profile</a>
-     
+           
             <a href="Logout.php" >Log Out</a>
         </nav>
     </header>

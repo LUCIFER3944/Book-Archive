@@ -1,5 +1,6 @@
 <?php
-require_once "Database.php";
+
+include "Database.php";
 
 class User {
     private $db;

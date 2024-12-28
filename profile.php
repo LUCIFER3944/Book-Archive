@@ -60,8 +60,9 @@
 <?php 
 
 
-include("nav.php"); 
 
+include("nav.php"); 
+include("fetchdata.php");
 ?>
 <div class="leader">
 
@@ -71,7 +72,7 @@ include("nav.php");
         <div class="col-lg-6">
             <div class="card profile-card mb-4">
                 <div class="card-body text-center">
-                    <img src="image2/ava3.webp" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                    <img src="image2/" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                     <h5 class="my-4"> <?php
             echo $fname;
             ?></h5>
